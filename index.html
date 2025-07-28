@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/sxpishrafteh/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SX Optimizer Advanced</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      // Apply dark mode from localStorage immediately to prevent flicker
+      if (localStorage.getItem('sx-dark-mode') === 'true' || (!('sx-dark-mode' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+    </script>
+    <script type="module" crossorigin src="/sxpishrafteh/assets/index-B0YT1zX4.js"></script>
+    <link rel="stylesheet" crossorigin href="/sxpishrafteh/assets/index-46xJEPM-.css">
+  </head>
+  <body class="bg-gray-50 dark:bg-gray-900">
+    <div id="root"></div>
+  </body>
+</html>
