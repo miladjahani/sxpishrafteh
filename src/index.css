@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.highlight {
+  transition: background-color 0.3s ease-in-out;
+  background-color: rgba(5, 150, 105, 0.2); /* A subtle green highlight */
+  border-radius: 8px;
+}
